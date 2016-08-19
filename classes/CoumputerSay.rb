@@ -45,6 +45,7 @@ module SV
       puts @start_prompt
       @question = gets.chomp
       if @question === @exit_key
+        puts ""
         quit_game
       end
       @answer = rand_answer
